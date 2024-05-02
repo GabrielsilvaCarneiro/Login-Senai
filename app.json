@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Login-Senai",
+    "slug": "Login-Senai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-app.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-img-senai.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000",
+      "padding":"100px"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-app.png",
+        "backgroundColor": "#fff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo-app.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
