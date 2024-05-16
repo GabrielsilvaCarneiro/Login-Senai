@@ -10,7 +10,7 @@
       "image": "./assets/splash-img-senai.png",
       "resizeMode": "contain",
       "backgroundColor": "#000000",
-      "padding":"100px"
+      "padding": "100px"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,13 +22,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo-app.png",
         "backgroundColor": "#fff"
-      }
+      },
+      "package": "com.gabrielsilvacarneiro.LoginSenai"
     },
     "web": {
       "favicon": "./assets/logo-app.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ac128951-5be3-49ba-a790-0d066255a906"
+      }
+    }
   }
 }
